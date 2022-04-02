@@ -100,22 +100,6 @@
   
   /* Credit to https://epicbootstrap.com/snippets/footer-basic */  
 
-  @keyframes animation {
-    from {background-image:url("images/ali-maah-zyOeEm4NsPM-unsplash.jpg");}
-    to {background-image:url("/images/futc-Re1Uc-eabi8-unsplash.jpg");}
-  }
-  
-  .hotel-list{
-    width: 1300px;
-    height: 850px;
-    animation-name: animation;
-    animation-duration: 3s;
-    background-image:url("/images/joshua-earle--87JyMb9ZfU-unsplash.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0px;
-  }
 
   .cards-list {
     z-index: 0;
@@ -192,7 +176,7 @@
   }
   
   body {
-    background: #9b3541;
+    background: #76a7da;
     font-family: 'Rubik', sans-serif;
   }
   
@@ -292,3 +276,25 @@
   .login-form .action button:nth-child(2):hover {
     background: #3c4d6d;
   }
+
+  /* registration page designing start */
+.registration-area{
+  height: 400px;
+  width: 600px;
+  background-color: #d9dee9;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 350px;
+  text-align: center;
+  border: 3px solid rgb(0, 4, 128);
+}
+
+/* registration page designing end */
+
+.registration-successful{
+  height: 150px;
+  width: 900px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  margin-left: 180px;
+}
